@@ -1,0 +1,4 @@
+C:/LUISVELEZ/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2010/3rdparty/cvblob/CMakeFiles/ALL_BUILD.dir
+C:/LUISVELEZ/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2010/apps/InteractiveVideoWall/CMakeFiles/IVW_Application.dir
+C:/LUISVELEZ/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2010/CMakeFiles/ZERO_CHECK.dir
+C:/LUISVELEZ/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2010/3rdparty/cvblob/lib/CMakeFiles/cvblob.dir

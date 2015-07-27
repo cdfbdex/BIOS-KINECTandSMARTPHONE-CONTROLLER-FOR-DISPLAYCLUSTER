@@ -1,0 +1,159 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec832625854.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.21005.1
+[Microsoft .NET Framework, versi¢n 4.0.30319.18449]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 03/06/2015 10:14:00 a. m..
+Proyecto "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec832625854.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec832625854.dir\Debug\".
+  Creando directorio "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec832625854.dir\Debug\cmTryCom.D3CE8D77.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec832625854.dir\Debug\cmTryCom.D3CE8D77.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec832625854.dir\Debug\\" /Fd"cmTryCompileExec832625854.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.21005.1 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec832625854.dir\Debug\\" /Fd"cmTryCompileExec832625854.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec832625854.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec832625854.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec832625854.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec832625854.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.43
+
+File C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2656733604.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.21005.1
+[Microsoft .NET Framework, versi¢n 4.0.30319.18449]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 03/06/2015 10:14:02 a. m..
+Proyecto "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec2656733604.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec2656733604.dir\Debug\".
+  Creando directorio "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec2656733604.dir\Debug\cmTryCom.F88A9AB2.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec2656733604.dir\Debug\cmTryCom.F88A9AB2.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2656733604.dir\Debug\\" /Fd"cmTryCompileExec2656733604.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.21005.1 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2656733604.dir\Debug\\" /Fd"cmTryCompileExec2656733604.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec2656733604.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec2656733604.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec2656733604.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec2656733604.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.45
+
+File C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1422801042.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.21005.1
+[Microsoft .NET Framework, versi¢n 4.0.30319.18449]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 03/06/2015 10:14:03 a. m..
+Proyecto "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec1422801042.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec1422801042.dir\Debug\".
+  Creando directorio "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec1422801042.dir\Debug\cmTryCom.04162C83.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec1422801042.dir\Debug\cmTryCom.04162C83.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1422801042.dir\Debug\\" /Fd"cmTryCompileExec1422801042.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.21005.1 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /IC:\Qt\4.8.4\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1422801042.dir\Debug\\" /Fd"cmTryCompileExec1422801042.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec1422801042.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec1422801042.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec1422801042.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : identificador no declarado [C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\CMakeTmp\cmTryCompileExec1422801042.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.46
+
+File C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

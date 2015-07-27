@@ -1,0 +1,13 @@
+﻿Compilación iniciada a las 03/06/2015 10:18:16 a. m..
+     1>Proyecto "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\ZERO_CHECK.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/3rdparty/cvblob/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/3rdparty/cvblob/lib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/BUILD2013/apps/InteractiveVideoWall/CMakeFiles/generate.stamp is up-to-date.
+     1>Compilación del proyecto terminada "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\ZERO_CHECK.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.23

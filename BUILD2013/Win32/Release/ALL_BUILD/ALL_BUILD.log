@@ -1,0 +1,10 @@
+﻿Compilación iniciada a las 03/06/2015 10:18:32 a. m..
+     1>Proyecto "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\ALL_BUILD.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/luis.velez/Documentos/APLICACIONES_MURO/TUIO+Kinect VRPN Controller/KinectTUIO-Full_Interaction/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\CMakeFiles\generate.stamp is up-to-date.
+     1>Compilación del proyecto terminada "C:\Users\luis.velez\Documentos\APLICACIONES_MURO\TUIO+Kinect VRPN Controller\KinectTUIO-Full_Interaction\BUILD2013\ALL_BUILD.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.07
